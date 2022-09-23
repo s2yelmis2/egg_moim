@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MOIM"
+        android:textSize="40sp"
+        android:textColor="@color/yellow"
+        android:layout_gravity="center"
+        android:layout_marginBottom="250dp"/>
+
+    <EditText
+        android:id="@+id/et_haknum"
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="200dp"
+        android:hint="학번입력"
+        android:backgroundTint="@color/yellow"/>
+
+    <ImageButton
+        android:id="@+id/moim_plus"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/egg_plus"
+        android:layout_gravity="right"
+        android:layout_marginTop="200dp"
+        android:layout_marginRight="12dp"
+        android:padding="10dp"/>
+
+
+    <TextView
+        android:id="@+id/moim_add"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:background="@drawable/rectangle2_style"
+        android:layout_gravity="center"
+        android:layout_marginTop="250dp"
+        android:gravity="center"
+        android:text="Grouping"
+        android:textSize="20dp"/>
+
+
+</FrameLayout>
